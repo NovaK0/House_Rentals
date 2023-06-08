@@ -1,0 +1,108 @@
+
+.mainform
+{
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    height:30rem ;
+    background-color: white;
+    border-radius: 1.1rem;
+    margin-left: 25%;
+    margin-top: -2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.form
+{
+    margin-left: 2.5rem;
+    height: 27rem;
+    width: 45%;
+    background-color:white;
+    font-family: 'Poppins-Bold';
+    font-weight: 600;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+}
+.header{
+    height: fit-content;
+    width: 100%;
+    color: #2eca6a;
+    font-size: 2.5rem;
+   margin-top: -2rem;
+    margin-left: 75%;
+   
+}
+input { 
+      outline: none;
+      }
+
+      .form-inner input,
+      .form-inner textarea {
+      display: block;
+    
+  
+      padding: 15px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 20px;
+      background: #d0dfe8;
+      }
+
+ .loginbutton {
+      width: 60%;
+      padding: 10px;
+      margin-left: 3rem;
+      margin-top: 20px;
+      border-radius: 20px;
+      border: none;
+      border-bottom: 4px solid #3e4f24;
+      background: #2ab45f;
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+
+      }
+ #loginbutton1 {
+      width: 60%;
+      padding: 10px;
+    margin-left: 3rem;
+      margin-top: 5px;
+      border-radius: 20px;
+      border: none;
+      border-bottom: 4px solid #3e4f24;
+      background: #2ab45f;
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      }
+      
+@media (max-width: 468px) {
+      .form {
+      width: 60%;
+     margin-left: 22%;
+    
+      }
+      }
+@media (max-width: 1024px) {
+        .form {
+       
+       margin-left: 25%;
+      
+        }
+        }
+.form-select
+{
+    width: 17rem;
+}

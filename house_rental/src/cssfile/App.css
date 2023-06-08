@@ -1,0 +1,233 @@
+#loginform
+{
+    margin-top: 12.5%;
+   
+}
+.allprop
+{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    background-color: transparent;
+   
+   
+}
+.btnzindex{
+    z-index:1;
+    position: absolute;
+}
+.singleprop
+{
+    height: 100%;
+    width: 24%;
+    margin-left: 1rem;
+    position: relative;
+  
+}
+.propmain
+{
+    display: flex;
+    flex-direction: column;
+}
+.title-n
+{
+    margin-left: 5rem;
+}
+.btnprop
+{
+    margin-left: 81%;
+  
+}
+.singlepropdet
+{
+    color:white;
+    margin-top: 85%;
+    height: 30rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'poppins';
+    margin-left: 8%;
+ 
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    transform-style: preserve-3d;
+}
+
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.container .box .body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+}
+
+
+
+.container .box .body .imgContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.container .box .body .imgContainer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .box .body .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+
+.container .box:hover .body{
+    transform: rotateY(180deg);
+}
+
+.container .box .body .content div{
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(45deg, #3af237,#FFEB3B);
+    transform: translateZ(10px);
+}
+
+.container .box .body .content div h3{
+    letter-spacing: 1px;
+}
+button#wishlistbutton:hover{
+    transform: scale(1.2);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+svg path {
+    fill: #f11658;
+    transition: transform 200ms ease-in-out, opacity 200ms ease;
+}
+
+#button2 {
+    transform-style: preserve-3d;
+    transform: translateZ(0);
+    padding: 12px;
+    border-radius: 3px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 200ms ease, padding-right 200ms ease-out box-shadow 200ms ease;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    cursor: pointer;
+}
+
+#button2:hover {
+    background-color: #f3f3f3;
+    padding-right: 32px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#button2 svg path {
+    transform: translateX(-56px);
+}
+
+#button2:hover svg path {
+    transform: translateX(0px);
+}
+
+#button2 .label {
+    transition: transform 200ms ease-out;
+}
+
+#button2:hover .label {
+    transform: translateX(20px);
+}
+
+#button2 .icon {
+    transition: color 200ms ease;
+    position: relative;
+}
+
+#button2:hover .icon {
+    color: #fff;
+}
+.icon{
+    float:left;
+    text-align: center;
+    width:24px;
+    line-height:24px;
+    margin-right:12px;
+    color:#9b9b9b;
+}
+.label{
+    float:left;
+    line-height: 24px;
+    font-weight:700;
+    margin-right:12px;
+    color:#4a4a4a;
+    letter-spacing: 0.8px;
+}
+
+
+.table-bordered{
+    border: 2px solid black;
+}

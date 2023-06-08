@@ -1,0 +1,204 @@
+.villaimg
+{
+    height: 40rem;
+    width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
+body{
+	background-color: #E7E9F5;
+	font-family: 'Heebo', sans-serif;
+}
+.card{
+	width: 500px;
+	border: none;
+	border-radius: 20px;
+}
+.form-control{
+	border-radius: 7px;
+	border: 1.5px solid #E3E6ED;
+}
+input.form-control:focus{
+	box-shadow: none;
+	border: 1.5px solid #E3E6ED;
+	background-color: #F7F8FD;
+	letter-spacing: 1px;
+}
+.btn-primary{
+	background-color: #5878FF!important;
+	border-radius: 7px;
+}
+.btn-primary:focus{
+	box-shadow: none;
+}
+.text{
+	font-size: 13px;
+	color: #9CA1A4;
+}
+.price{
+	background: #F5F8FD;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 97px;
+}
+.flex-row{
+	border: 1px solid #F2F2F4;
+	border-radius: 10px; 
+	margin: 0 1px 0;
+}
+.flex-column p{
+	font-size: 14px;
+}
+span.mb-2{
+	font-size: 12px;
+	color: #8896BD;
+}
+h5 span{
+	color: #869099;
+}
+@media screen and (max-width: 450px){
+	.card{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.price{
+		border: none;
+		margin: 0 auto;
+	}
+}
+.card-shadow
+{
+	height: 30rem;
+}
+.grid-container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+}
+.propertycards
+{
+	width: 25rem;
+	height: 30rem;
+	background-color:white;
+	border-radius: 1.2rem;
+	margin-top: 10rem;
+	margin-left: 4rem;
+}
+#propinfop
+{
+	margin-left: .5rem;
+	
+	color: black;
+}
+.box2 {
+	box-shadow:
+	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+	0 12.5px 10px rgba(0, 0, 0, 0.06),
+	0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+	0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+	0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+  
+	
+  margin-top: 1rem;
+	height: 10rem;
+	width: 15rem;
+	background: white;
+	border-radius: 5px;
+	margin-left: 1rem;
+	
+	
+	
+  }
+  .mainbox
+  {
+	margin-left: 25rem;
+	height: 100vh;
+	width:70rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  }
+  .box1 {
+	box-shadow:
+	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+	0 12.5px 10px rgba(0, 0, 0, 0.06),
+	0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+	0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+	0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+  
+	
+	
+	height: 15rem;
+	width: 20rem;
+	background: white;
+	border-radius: 5px;
+	margin-left: 1rem;
+	padding:.5rem
+	
+  }
+
+.mainbox1
+{
+	
+	margin-left: 30rem;
+	
+	width:70rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.propimg1{
+	height: 25rem;
+	width: 100%;
+}
+.propimgtg
+{
+	height: 30rem;
+	width: auto;
+}
+.carousel-root{
+	width: 60%;
+	height: 30rem;
+	margin-left: 20%;
+	
+}
+.carousalhai{
+display: flex;
+width: 100%;
+height: 100%;
+}
+.Propertyname
+{
+	width: 20rem;
+	height: 10rem;
+	background-color: white;
+}
+table,td,th{
+	border: 2px solid black;
+}
+
+.buyeravgcost
+{
+	background-color:rgb(203, 200, 200);
+	width: 60vw;
+	height: 30rem;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items: center;
+	flex-wrap: wrap;
+	border-radius: 1.2rem;
+}
+#avgdiv
+{
+	margin-left: 1rem;
+}
